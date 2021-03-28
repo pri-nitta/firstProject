@@ -4,11 +4,11 @@ nome = input("Qual seu nome? ")
 crush = input("Qual o nome do seu crush? ")
 meia = input("Você está de meias? S/N ")
 
-if meia == "S" or "s":
+if meia == "S" or meia == "s":
     cor = input("Qual a cor da sua meia? ")
-    if cor == "Laranja" or "laranja" or "Azul" or "azul":
+    if cor == "Laranja" or cor == "laranja" or cor == "Azul" or cor == "azul":
         print("Temos um match! <3")
     else:
         print("Meia de cor errada! :(")
 else:
-    print("Acho q não rolou {}... {} não está afim.".format(nome, crush))
+    print(f"Acho q não rolou {nome}... {crush} não está afim.")
