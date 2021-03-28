@@ -4,4 +4,6 @@ salario = float(input("Digite o salário de {}: ".format(funcionario)))
 if salario < 0:
     salario = salario * -1
     print("O salário digitado foi negativo, portanto o corrigimos")
-    print("O salário de {} é {}".format(funcionario, salario))
+
+print("-------------------------------------------------")
+print("O salário de {} é {}".format(funcionario, salario))
