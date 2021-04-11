@@ -13,19 +13,17 @@
 # afinal 55 está entre os números da sequência. Mas se o usuário digitar o número 6, por exemplo,
 # a ação não será bem sucedida, pois o número 6 não está na sequência.
 
-numero = int(input("Digite um número de 1 a 1000: "))
-a = 1
+numero = int(input("Digite um número: "))
+a = 0
 b = 1
-auxiliar = 0
+soma = 0
 
-for i in range(1, 16):
-    c = a + b
+while soma < numero:
+    soma = a + b
     a = b
-    b = c
-    if numero == a:
-        auxiliar = 1
+    b = soma
 
-if auxiliar == 1:
+if soma == numero:
     print("Ação bem sucedida")
 else:
     print("A ação falhou...")
