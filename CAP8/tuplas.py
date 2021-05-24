@@ -1,7 +1,7 @@
 usuarios = {}
 emails = ["xpto@email.com", "xkcd@email.com", "abcd@email.com"]
 
-# lista de numeros e emails
+# lista de numeros (usuario) e emails
 tupla = list(enumerate(emails))
 
 # acrescenta os dados de nome e nível de acesso aos e-mails
